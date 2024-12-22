@@ -1,0 +1,19 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "A Basic Webpage";
+}
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/site.css" />
+</head>
+
+<div class="text-center">
+    <h1 class="display-4">Super Professional Webpage</h1>
+    <h4>Enjoy this song by Igorrr:</h4>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/UZzYxGZ7Hmc?si=Dy_SZlFGg52EJBl6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+    <h4>Now check out this crazy awesome animation:</h4>
+    <p><button onclick="awesomeAnimation()">Click here</button></p>
+    <div id="container">
+        <div id="animate"></div>
+    </div>
+</div>
